@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" />
+        <meta name="description" content="A wab app solution to help you with picking the right phone that fits you." />
+        <meta name="keywords" content="app, smartphone, phone, phone comparison" />
+        <meta name="author" content="Jannis Neus" />
+        <title>Find your Phone</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans" />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <h1><span class="highlight">Phone</span>Finder</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li class="current"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="games.html">Help</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="showcase">
+            <div class="slideshow">
+
+                <input type="radio" name="images" id="i1" checked/>
+                <input type="radio" name="images" id="i2" />
+                <input type="radio" name="images" id="i3" />
+
+                <div class="slide_img" id="one">
+                    <img src="./img/phone2.jpg"/>
+
+                    <label for="i3" class="pre"></label>
+                    <label for="i2" class="nxt"></label>
+                </div>
+
+                <div class="slide_img" id="two">
+                    <img src="./img/phone1.jpg"/>
+
+                    <label for="i1" class="pre"></label>
+                    <label for="i3" class="nxt"></label>
+                </div>
+
+                <div class="slide_img" id="three">
+                    <img src="./img/phone3.jpg"/>
+
+                    <label for="i2" class="pre"></label>
+                    <label for="i1" class="nxt"></label>
+                </div>
+
+                <div class="img-nav">
+                    <label class="dots" id="dot1" for="i1"></label>
+                    <label class="dots" id="dot2" for="i2"></label>
+                    <label class="dots" id="dot3" for="i3"></label>
+                </div>
+
+            </div>
+            <div class="container">
+                <h1>Find your ideal phone!</h1>
+                <p>With our test you will be able to find the phone that suits you.
+                    This is done by comparing the specs of over 1000 of the latest phones to
+                    ensure a fit for you!</p>
+            </div>
+        </section>
+
+        <section id="startBar">
+            <div class="container">
+                <h1>Try our latest Game</h1>
+            </div>
+        </section>
+
+
+
+        <footer>
+            <p>PhoneFinder, Copyright &copy; 2017</p>
+            </footer>
+    </body>
+</html>
